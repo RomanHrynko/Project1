@@ -1,5 +1,5 @@
 .action-button {
-  width: 160px;
+  width: 100%;
   height: 48px;
   line-height: 13px;
   font-size: 18px;
@@ -8,4 +8,9 @@
   background-color: #3040c4;
   border: none;
   border-radius: 2px;
+}
+@media screen and (min-width: 400px) {
+  .action-button {
+    width: 160px;
+  }
 }
