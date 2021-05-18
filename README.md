@@ -1,5 +1,3 @@
-# Project1
-
 # Layout Sample Project
 
 ### https://romanhrynko.github.io/Project1/
