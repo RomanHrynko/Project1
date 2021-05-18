@@ -9,7 +9,7 @@
     line-height: 26px;
     font-size: 18px;
     margin-top: 26px;
-    color: #2b292d;
+    color: $text-color-grey;
     opacity: 0.6;
 
     @include for-large-up {
@@ -18,7 +18,7 @@
   }
 
   &__line {
-    border: 1px solid #2b292d;
+    border: 1px solid $border-dark-color;
     width: 100%;
     opacity: 0.1;
     margin: 0;
@@ -101,7 +101,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 28px;
-    color: #2b292d;
+    color: $text-color-grey;
     margin: 0;
   }
 
@@ -109,7 +109,7 @@
     list-style-type: none;
     font-size: 18px;
     line-height: 30px;
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-light-grey;
     padding: 0;
     margin: 0;
     margin-top: 18px;
@@ -139,7 +139,7 @@
 
   &__items {
     text-decoration: none;
-    color: #2b292d;
+    color: $text-color-grey;
     opacity: 0.6;
     margin-right: 22px;
   }
@@ -194,6 +194,6 @@
     font-size: 18px;
     line-height: 25px;
     text-align: center;
-    color: rgba(43, 41, 45, 0.6);
+    color: $text-color-light-grey;
   }
 }

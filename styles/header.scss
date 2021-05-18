@@ -1,7 +1,7 @@
 .header {
   height: 64px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: $color-white;
   display: flex;
   align-items: center;
   padding-left: 15px;
@@ -11,7 +11,7 @@
     height: 62px;
     margin: auto;
     display: flex;
-    background-color: #f3c6bd;
+    background-color: $color-peach;
   }
 
   &__button {
@@ -25,7 +25,7 @@
   &__menu-button {
     width: 58px;
     border: none;
-    border-left: 1px solid #00000026;
+    border-left: 1px solid $border-dark-lighter-color;
     height: 100%;
     margin-left: auto;
     background: transparent;
@@ -62,7 +62,7 @@
   }
 
   &__item {
-    color: #2b292d;
+    color: $text-color-grey;
     text-decoration: none;
     line-height: 25px;
     font-size: 18px;
@@ -105,7 +105,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: #2b292d;
+    color: $text-color-grey;
   }
 
   &__name {
@@ -117,15 +117,15 @@
   &__description {
     font-size: 18px;
     line-height: 25px;
-    color: #2b292d;
+    color: $text-color-grey;
     opacity: 0.6;
   }
 }
 .top-section {
-  background-color: #f3c6bd;
+  background-color: $color-peach;
 
   @include for-large-up {
-    background-color: #f3c6bd;
+    background-color: $color-peach;
     padding-top: 39px;
   }
 }

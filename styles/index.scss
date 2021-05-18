@@ -1,3 +1,4 @@
+@import 'variables.scss';
 @import 'breakpoints';
 @import 'commom.scss';
 @import 'about.scss';
@@ -7,6 +8,7 @@
 @import 'header.scss';
 @import 'headline.scss';
 @import 'tips.scss';
+@import 'order.scss';
 
 * {
   box-sizing: border-box;
@@ -15,17 +17,14 @@
 html {
   font-size: 16px;
   font-family: 'Work Sans', sans-serif;
-  color: #2b292d;
+  color: $text-color-grey;
 }
 
 .page {
   width: 100%;
-  overflow-x: hidden;
-}
 
-@media screen and (min-width: 400px) {
-  .page {
-    width: 1400px;
+  @include for-large-up {
+    max-width: 1400px;
     margin: auto;
     min-height: 100vh;
     display: flex;

@@ -25,8 +25,8 @@
   &__item {
     height: 94px;
     width: 107px;
-    border-bottom: 1px solid #e3e3e3;
-    border-right: 1px solid #e3e3e3;
+    border-bottom: 1px solid $border-light-color;
+    border-right: 1px solid $border-light-color;
     display: flex;
     align-items: center;
     justify-content: center;
