@@ -1,6 +1,6 @@
 # Layout Sample Project
 
-### https://romanhrynko.github.io/Project1/
+### https://romanhrynko.github.io/first-website/
 
 Layout supports mobile (up-to-400) and desktop (up-to-1360) versions
 
