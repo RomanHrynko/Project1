@@ -3,10 +3,10 @@
   background-color: $color-light;
 
   @include for-large-up {
-    padding: 73px 0 72px 0;
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    padding: 73px 0 72px 0;
   }
 
   &__details {
@@ -23,12 +23,12 @@
   }
 
   &__title {
+    margin-top: 40px;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     text-align: center;
     letter-spacing: -0.25px;
-    margin-top: 40px;
 
     @include for-large-up {
       text-align: left;
