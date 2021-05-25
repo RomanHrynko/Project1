@@ -23,6 +23,7 @@ html {
 
 .page {
   width: 100%;
+  overflow-x: hidden;
 
   @include for-large-up {
     display: flex;
